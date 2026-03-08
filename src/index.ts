@@ -23,7 +23,6 @@ app.get('/info', async (req, res) => {
   }
 });
 
-const HOST = "0.0.0.0"; // required in Docker so the server accepts connections from outside the container
-app.listen(Number(PORT), HOST, () => {
-  console.log(`Server live at http://${HOST}:${PORT}`);
+app.listen(PORT,  () => {
+  console.log(`Server live at ${PORT}`);
 });
