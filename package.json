@@ -1,0 +1,22 @@
+{
+  "name": "aws-ecr-ecr-containerization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.6",
+    "axios": "^1.13.6"
+  }
+}
