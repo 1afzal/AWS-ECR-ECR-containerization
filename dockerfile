@@ -25,4 +25,6 @@ COPY --from=builder /app/dist ./dist
 
 COPY .env ./
 
-CMD ["node", "dist/index.js"]
+EXPOSE 6969
+
+CMD ["node", "dist/index.js", "--host"]
